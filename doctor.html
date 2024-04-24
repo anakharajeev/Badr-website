@@ -1,0 +1,2151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BADR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="img/favicon.png">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="img-fluid"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="departments.html">Departments</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="doctor.html">Doctors</a>
+                    </li>             
+                    <li class="nav-item">
+                        <a class="nav-link" href="insurance.html">Insurance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="service.html">Service & Packages</a>
+                    </li>
+
+
+                </ul>
+                <form class="d-flex">
+                    <div class="contact-bg">
+                        <h4><span>Call us :</span><a href="tel:966123456789"> + 966 12 3456789</a> </h4>
+                    </div>
+                     <a href="contact.html"><button class="btn-contact" type="button">Contact us</button></a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="banner-sm">
+        <div class="inner-banner d-flex align-items-center">
+            <div class="elementor-background-overlay"></div>
+            <div class="container">
+                <h4><a href="index.html">Home </a> / Doctors</h4>
+                <h1>Doctors</h1>
+            </div>
+        </div>
+    </section>
+
+    <section class="doctor-tabs">
+        <div class="container doctor-tabs-padd" data-aos="fade-up" data-aos-duration="1000">
+            <div class="doct-tabselect">
+                <select id='mySelect' class="form-control nav-tabs-selector">
+                    <option value='0'>All</option>
+                    <option value='1'>Dental</option>
+                    <option value='2'>Internal Medicine</option>
+                    <option value='3'>Chest</option>
+                    <option value='4'>Neurology</option>
+                    <option value='5'>Cardiology</option>
+                    <option value='6'>Dermatology</option>
+                    <option value='7'>General Surgery</option>
+                    <option value='8'>Orthopedics</option>
+                    <option value='9'>Urology</option>
+                    <option value='10'>Opthalmology</option>
+                </select>
+            </div>
+            
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">All</button>
+                    <button class="nav-link" id="nav-dep-1-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-1" type="button" role="tab" aria-controls="nav-dep-1" aria-selected="false">Dental</button>
+                    <button class="nav-link" id="nav-dep-2-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-2" type="button" role="tab" aria-controls="nav-dep-2" aria-selected="false">Internal Medicine</button>
+                    <button class="nav-link" id="nav-dep-3-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-3" type="button" role="tab" aria-controls="nav-dep-3" aria-selected="false">Chest</button>
+                    <button class="nav-link" id="nav-dep-4-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-4" type="button" role="tab" aria-controls="nav-dep-4" aria-selected="false">Neurology</button>
+                    <button class="nav-link" id="nav-dep-5-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-5" type="button" role="tab" aria-controls="nav-dep-5" aria-selected="false">Cardiology</button>
+                    <button class="nav-link" id="nav-dep-6-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-6" type="button" role="tab" aria-controls="nav-dep-6" aria-selected="false">Dermatology</button>
+                    <button class="nav-link" id="nav-dep-7-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-7" type="button" role="tab" aria-controls="nav-dep-7" aria-selected="false">General Surgery</button>
+                    <button class="nav-link" id="nav-dep-8-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-8" type="button" role="tab" aria-controls="nav-dep-8" aria-selected="false">Orthopedics</button>
+                    <button class="nav-link" id="nav-dep-9-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-9" type="button" role="tab" aria-controls="nav-dep-9" aria-selected="false">Urology</button>
+                    <button class="nav-link" id="nav-dep-10-tab" data-bs-toggle="tab" data-bs-target="#nav-dep-10" type="button" role="tab" aria-controls="nav-dep-10" aria-selected="false">Opthalmology</button>
+
+                </div>
+            </nav>
+
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+                    <section class="doc-space">
+                        <div class="container">
+                            <div class="row ">
+                                
+                                <div class="col-lg-3 col-md-4 a-class">   
+                                                     
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">                                             
+                                                    <img src="img/team-01.webp" alt="Image">                                                                                             
+                                                    <div class="social-content">
+                                                        <ul>
+                                                            <li>
+                                                                <a href="https://www.facebook.com" target="_blank">
+                                                                    <i class="fa-brands fa-facebook-f"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://www.twitter.com" target="_blank">
+                                                                    <i class="fa-brands fa-twitter"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://instagram.com/?lang=en"
+                                                                    target="_blank">
+                                                                    <i class="fa-brands fa-instagram"></i></a>
+                                                            </li>
+                                                            <li>
+                                                                <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                    <i class="fa-brands fa-linkedin-in"></i></a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>                                             
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                                <div class="doctor-card-content">
+                                                    <h3>Dr.Fredrick Auer</h3>
+                                                    <p>Orthopedics</p>
+                                                </div>
+                                            </a>
+                                        </div>
+                                
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                              
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-02.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                             
+                               
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                              
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-03.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div>
+                                            </a>
+                                        </div>
+                            
+                                  
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                                
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-04.webp" alt="Image"></a>
+
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div>
+                                            </a>
+                                        </div>
+                                
+                              
+
+                                </div>
+
+                                <div class="col-lg-3 col-md-4 a-class">
+                               
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-04.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div>
+                                            </a>
+                                        </div>
+                               
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                               
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-03.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div>
+                                            </a>
+                                        </div>
+                                 
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                                  
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-01.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                                  
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                                
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-02.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div>
+                                            </a>
+                                        </div>
+                               
+
+                                </div>
+
+
+                                <div class="col-lg-3 col-md-4 a-class">
+                                 
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-04.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                                
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                               
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-03.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                                
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                             
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-01.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                                 
+                                </div>
+                                <div class="col-lg-3 col-md-4 a-class">
+                            
+                                        <div class="single-doctor-card style">
+                                            <div class="doctor-img">
+                                                <a href="doctor-inner.html">
+                                                <img src="img/team-02.webp" alt="Image"></a>
+                                                <div class="social-content">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="https://www.facebook.com" target="_blank">
+                                                                <i class="fa-brands fa-facebook-f"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://www.twitter.com" target="_blank">
+                                                                <i class="fa-brands fa-twitter"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://instagram.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-instagram"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                                <i class="fa-brands fa-linkedin-in"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                            <a href="doctor-inner.html">
+                                            <div class="doctor-card-content">
+                                                <h3>Dr.Fredrick Auer</h3>
+                                                <p>Orthopedics</p>
+                                            </div></a>
+                                        </div>
+                                 
+
+                                </div>
+
+
+                            </div>
+                      
+                        </div>
+                    </section>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-1" role="tabpanel" aria-labelledby="nav-dep-1-tab" tabindex="0">
+                  <div class="container">
+                    <div class="row ">
+                        <div class="col-lg-3 col-md-4 a-class">
+                        
+                                <div class="single-doctor-card style">
+                                    <div class="doctor-img">
+                                        <a href="doctor-inner.html">
+                                        <img src="img/team-04.webp" alt="Image"></a>
+                                        <div class="social-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com" target="_blank">
+                                                        <i class="fa-brands fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.twitter.com" target="_blank">
+                                                        <i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://instagram.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="doctor-inner.html">
+                                    <div class="doctor-card-content">
+                                        <h3>Dr.Fredrick Auer</h3>
+                                        <p>Orthopedics</p>
+                                    </div></a>
+                                </div>
+                          
+                        </div>
+                        <div class="col-lg-3 col-md-4 a-class">
+                           
+                                <div class="single-doctor-card style">
+                                    <div class="doctor-img">
+                                        <a href="doctor-inner.html">
+                                        <img src="img/team-03.webp" alt="Image"></a>
+                                        <div class="social-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com" target="_blank">
+                                                        <i class="fa-brands fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.twitter.com" target="_blank">
+                                                        <i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://instagram.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="doctor-inner.html">
+                                    <div class="doctor-card-content">
+                                        <h3>Dr.Fredrick Auer</h3>
+                                        <p>Orthopedics</p>
+                                    </div></a>
+                                </div>
+                      
+                        </div>
+                        <div class="col-lg-3 col-md-4 a-class">
+                        
+                                <div class="single-doctor-card style">
+                                    <div class="doctor-img">
+                                        <a href="doctor-inner.html">
+                                        <img src="img/team-01.webp" alt="Image"></a>
+                                        <div class="social-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com" target="_blank">
+                                                        <i class="fa-brands fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.twitter.com" target="_blank">
+                                                        <i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://instagram.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="doctor-inner.html">
+                                    <div class="doctor-card-content">
+                                        <h3>Dr.Fredrick Auer</h3>
+                                        <p>Orthopedics</p>
+                                    </div></a>
+                                </div>
+                        
+                        </div>
+                        <div class="col-lg-3 col-md-4 a-class">
+                    
+                                <div class="single-doctor-card style">
+                                    <div class="doctor-img">
+                                        <a href="doctor-inner.html">
+                                        <img src="img/team-02.webp" alt="Image"></a>
+                                        <div class="social-content">
+                                            <ul>
+                                                <li>
+                                                    <a href="https://www.facebook.com" target="_blank">
+                                                        <i class="fa-brands fa-facebook-f"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://www.twitter.com" target="_blank">
+                                                        <i class="fa-brands fa-twitter"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://instagram.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-instagram"></i></a>
+                                                </li>
+                                                <li>
+                                                    <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                        <i class="fa-brands fa-linkedin-in"></i></a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a href="doctor-inner.html">
+                                    <div class="doctor-card-content">
+                                        <h3>Dr.Fredrick Auer</h3>
+                                        <p>Orthopedics</p>
+                                    </div></a>
+                                </div>
+                        
+
+                        </div>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-2" role="tabpanel" aria-labelledby="nav-dep-2-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                           
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                          
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+                           
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                          
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                           
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                        
+                          
+
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade" id="nav-dep-3" role="tabpanel" aria-labelledby="nav-dep-3-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                           
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-4" role="tabpanel" aria-labelledby="nav-dep-4-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                           
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-5" role="tabpanel" aria-labelledby="nav-dep-5-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                          
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                               
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-6" role="tabpanel" aria-labelledby="nav-dep-6-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                           
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                           
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                           
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                           
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-7" role="tabpanel" aria-labelledby="nav-dep-7-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                               
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-8" role="tabpanel" aria-labelledby="nav-dep-8-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                            
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-9" role="tabpanel" aria-labelledby="nav-dep-9-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                               
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                              
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+                <div class="tab-pane fade" id="nav-dep-10" role="tabpanel" aria-labelledby="nav-dep-10-tab" tabindex="0">
+                    <div class="container">
+                        <div class="row ">
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-04.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                             
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-03.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                             
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-01.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+                            </div>
+                            <div class="col-lg-3 col-md-4 a-class">
+                            
+                                    <div class="single-doctor-card style">
+                                        <div class="doctor-img">
+                                            <a href="doctor-inner.html">
+                                            <img src="img/team-02.webp" alt="Image"></a>
+                                            <div class="social-content">
+                                                <ul>
+                                                    <li>
+                                                        <a href="https://www.facebook.com" target="_blank">
+                                                            <i class="fa-brands fa-facebook-f"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.twitter.com" target="_blank">
+                                                            <i class="fa-brands fa-twitter"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://instagram.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-instagram"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://linkedin.com/?lang=en" target="_blank">
+                                                            <i class="fa-brands fa-linkedin-in"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <a href="doctor-inner.html">
+                                        <div class="doctor-card-content">
+                                            <h3>Dr.Fredrick Auer</h3>
+                                            <p>Orthopedics</p>
+                                        </div></a>
+                                    </div>
+                              
+    
+                            </div>
+    
+    
+                        </div>
+                      </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-2 col-12">
+                    <img src="img/badr_new_logo-white.png" alt="" class="img-fluid logo-white">
+                </div>
+                <div class="col-lg-9 col-md-10 col-12">
+                    <div class="footer-link">
+                        <a href="index.html">Home</a>
+                        <a href="about.html">About us</a>
+                        <a href="doctor.html">Doctors</a>
+                        <a href="departments.html">Departments</a>
+                        <a href="insurance.html">Insurance</a>
+                        <a href="career.html">Careers</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="our-company">
+                        <h5>Our Company</h5>
+                        <p>WIt is a long established fact that a reader will be distracted by the readable content of a
+                            page when looking at its layout.</p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-9">
+                    <div class="d-flex mt-3 justify-content-lg-center">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4 col-3">
+                                <div class="contact">
+                                    <div class="d-flex align-items-center email-call">
+                                        <img src="img/email-1.png" alt="" class="img-fluid">
+                                        <a href="mailto:support@badrmedicalgroup.com">Email</a>
+                                    </div>
+                                    <div class="d-flex align-items-center email-call">
+                                        <img src="img/call_1.png" alt="" class="img-fluid">
+                                        <a href="tel:966123456789">Phone</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-9">
+                                <div class="support d-flex flex-column">
+                                    <a href="mailto:support@badrmedicalgroup.com">support@badrmedicalgroup.com</a>
+                                    <a href="tel:966123456789">+966 12 3456789</a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-md-3 d-flex align-items-center justify-content-md-end">
+                    <div class="social-media-icons d-flex justify-content-end">
+                        <a href="">
+                            <img src="img/facebook-1.png" alt="" class="img-fluid">
+                        </a>
+                        <a href="">
+                            <img src="img/instagram-1.png" alt="" class="img-fluid">
+                        </a>
+                        <a href="">
+                            <img src="img/twitter-1.png" alt="" class="img-fluid">
+                        </a>
+                        <a href="">
+                            <img src="img/linked-in.png" alt="" class="img-fluid">
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+            <hr class="footer-line footline1">
+            <div class="d-flex justify-content-between  flex-column flex-md-row">
+                <ul class="terms">
+                    <li><a href="#"> Terms and conditions</a></li>
+                    <li><a href="#"> Privacy policy</a></li>
+                    <li><a href="#">Site map</a></li>
+                </ul>
+                <ul class="terms">
+                    <li class="me-0"><a href="#">© Badr Medical Group. all rights reserved</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <script src="https://kit.fontawesome.com/54a4e872e6.js" crossorigin="anonymous"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+            $('.nav-tabs-selector').on('change', function (e) {
+                $(this).closest(".doctor-tabs-padd").find('.nav-tabs .nav-link').eq($(this).val()).tab('show'); 
+            });
+    </script>
+</body>
+
+</html>
